@@ -1,0 +1,19 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\heimann_image]
+@="Heimann Image"
+
+[HKEY_CLASSES_ROOT\heimann_image\shell]
+
+[HKEY_CLASSES_ROOT\heimann_image\shell\open]
+@=""
+
+[HKEY_CLASSES_ROOT\heimann_image\shell\open\command]
+@="c:\\imgc\\imgcshow.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hif]
+@="heimann_image"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.pic]
+@="heimann_image"
+
